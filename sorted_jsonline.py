@@ -52,20 +52,3 @@ else:
                 break
 
     file_write.close()
-
-# with jsonlines.open('union.jsonl', mode='w') as file3:
-# file3.write(*new_lst)
-
-# file3.close()
-
-# print(path1)
-# print(path2)
-
-# with open(path1, 'r') as file1, open(path2, 'r') as file2:
-# read1 = file1.readline()
-# read2 = file2.readlines()
-# read1.extend(read2)
-# new_lst = sorted(read1, key=lambda x: json.loads(x)["timestamp"])
-# new_lst1 = ''.join(list(new_lst))
-# with open('union.jsonl', 'w') as file3:
-# file3.write(new_lst)
